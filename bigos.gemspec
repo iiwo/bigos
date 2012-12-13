@@ -7,17 +7,17 @@ require "bigos/version"
 Gem::Specification.new do |s|
   s.name        = "bigos"
   s.version     = Bigos::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Bigos."
-  s.description = "TODO: Description of Bigos."
+  s.authors     = ["Iwo Dziechciarow"]
+  s.email       = ["iiwo@o2.pl"]
+  s.homepage    = "tremor.pl"
+  s.summary     = "Base module for bigos"
+  s.description = "Base module for bigos"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.2.9"
-  # s.add_dependency "jquery-rails"
+  s.add_dependency "ledermann-rails-settings"
 
   s.add_development_dependency "sqlite3"
 end
