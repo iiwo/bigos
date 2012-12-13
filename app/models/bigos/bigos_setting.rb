@@ -1,3 +1,3 @@
-class BigosSetting < RailsSettings::CachedSettings
+class Setting < RailsSettings::CachedSettings
 	attr_accessible :var
 end
