@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = Bigos::VERSION
   s.authors     = ["Iwo Dziechciarow"]
   s.email       = ["iiwo@o2.pl"]
-  s.homepage    = "tremor.pl"
+  s.homepage    = "http://tremor.pl"
   s.summary     = "Base module for bigos"
   s.description = "Base module for bigos"
 
