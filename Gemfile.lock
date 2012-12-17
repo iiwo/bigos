@@ -1,9 +1,9 @@
 PATH
   remote: .
   specs:
-    bigos (0.0.1)
-      ledermann-rails-settings
+    bigos (0.0.2)
       rails (~> 3.2.9)
+      rails-settings-cached
 
 GEM
   remote: http://rubygems.org/
@@ -45,8 +45,6 @@ GEM
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
     json (1.7.5)
-    ledermann-rails-settings (1.2.0)
-      activerecord (>= 2.3)
     mail (2.4.4)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
@@ -100,5 +98,4 @@ PLATFORMS
 DEPENDENCIES
   bigos!
   jquery-rails
-  rails-settings-cached
   sqlite3
